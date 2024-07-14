@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>show</title>
+    <title>Home index</title>
 </head>
 <body>
-    <p>product show</p>
+    <p>home index</p>
 </body>
 </html>
