@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use PDO;
+
 class Product 
 {
     public function getData(): array
     {
         $dsn = "mysql:host=localhost;dbname=product_db";
-
         $pdo = new PDO($dsn, "product_db_user", "secret", [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]);
